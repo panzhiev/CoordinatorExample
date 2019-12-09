@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9995F9</color>
+    <color name="colorPrimaryDark">#7976C2</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimaryTranslucent">#7F008577</color>
+    <color name="colorMain">#44D81B</color>
+
+    <color name="main_gradient_start_color">#00ACA1</color>
+    <color name="main_gradient_center_color">#4FA0CE</color>
+    <color name="main_gradient_end_color">#9995F9</color>
+    <color name="bank_start_color">#C2BFFC</color>
+    <color name="bank_end_color">#9995F9</color>
+
+
+</resources>
