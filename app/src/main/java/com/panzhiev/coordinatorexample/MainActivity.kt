@@ -61,7 +61,6 @@ class MainActivity : AppCompatActivity() {
         bank_accounts_rv.adapter = BankAccountsAdapter()
         main_layout.doOnLayout {
             rvStartY = bank_accounts_rv.y
-            homeStartY = home.y
             peekHeight = getScreenHeight() -
                     getPixelsFromDp(16f) -
                     home.height -
@@ -80,6 +79,11 @@ class MainActivity : AppCompatActivity() {
             setColor(Color.WHITE)
             cornerRadius = getPixelsFromDp(16f).toFloat()
         }
+        home.doOnLayout {
+            homeStartY = home.y
+        }
+
+        bottom_sheet.maxHeight = getScreenHeight()
     }
 
     private fun getScreenHeight(): Int {
